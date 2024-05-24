@@ -1,0 +1,21 @@
+POO
+* Proteger y ocultar información.
+
+Polifomorfismo : 
+  * Ocurre en la herencia.
+  * Metodo para responder o comportarse de distinta forma en las clases (Padre - Hijo)
+
+
+Encapsulamiento:
+ * Es la ocultación y protección de información.
+ * Limitación de acceso a atributos y metodos de una clase
+  Modifcadores de acceso
+ - Public : Acceso desde cualquier parte del programa incluyendo otras clases e instancias de objetos
+ - Protected : Acceso en la misma clase y se puede heredar a otra clase.
+ - Private : Acceso unicamente en la misma clase, no se hereda
+
+Getters y Setters
+Son metodos que le permiten a un objeto controlar el acceso a ciertas propiedades de la clase (protegidas y privadas).
+
+Setters : Permite obtener el valor de una propiedad de la clase y asi poder utilizar dicho valor en diferentes metodos
+Getters : Permite brindar acceso a propiedades especificas para poder brindar asignar un valor fuera de la clase.
