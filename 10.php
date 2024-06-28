@@ -1,7 +1,7 @@
 <?php
 
 
-$db = new PDO('mysql:host=localhost; dbname=task_personal;', 'root', 'piRKy2475na?m');
+$db = new PDO('mysql:host=localhost; dbname=task_personal;', 'root', '');
 
 //CREACIÓN DE CONSULTA
 $query = "SELECT task_name, task_description FROM tasks";
