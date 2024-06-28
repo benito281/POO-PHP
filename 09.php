@@ -1,6 +1,6 @@
 <?php
 //CONEXIÓN A BD
-$db = new mysqli('localhost', 'root', 'piRKy2475na?m','task_personal');
+$db = new mysqli('localhost', 'root', '','task_personal');
 
 //CREACIÓN DE CONSULTA
 $query = "SELECT task_name, task_description FROM tasks";
